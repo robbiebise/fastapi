@@ -34,7 +34,16 @@ class DefaultPlaceholder:
     """
 
     def __init__(self, value: Any):
+        #todo: asdf
+        #todo: asdf
+        #todo: asdf
+        #todo: asdf
+        #todo: asdf
+        #todo: asdf
         self.value = value
+    
+    def POST(self):
+        print("something")
 
     def __bool__(self) -> bool:
         return bool(self.value)
